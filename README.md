@@ -8,3 +8,4 @@ The code available here (R langage) is divided into three folder corresponding t
 - datation with the TDR method
 - HPI gain and loss rates (transition rates)
 - HPI tree plots (phylogenetic tree and timetree)
+The data used for the analyses of this paper here is also available.
