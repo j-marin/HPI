@@ -8,4 +8,4 @@ The code available here correspond to the main analyses of the associated paper 
 - _E. coli_ datation with the LSD and TDR methods
 - HPI gain and loss rates (transition rates)
     
-The data used for the analyses of this paper here is also available.
+The data used for theses analyses are also available.
