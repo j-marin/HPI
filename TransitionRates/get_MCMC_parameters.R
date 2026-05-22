@@ -33,7 +33,7 @@ cladeK <- extract.clade(hpi_tree, 1615)
 table(a$Species[match(cladeK$tip.label, a$Strains)])
 coliK <- cladeK$tip.label[which(a$Species[match(cladeK$tip.label, a$Strains)] == "Escherichia coli")]
 
-tree <- drop.tip(tree, coliK) # 405
+tree <- drop.tip(tree, coliK)
 
 # check names
 setdiff(tree$tip.label, a$Strains)
@@ -46,7 +46,7 @@ names(states) <- tree$tip.label
 
 ## Split tree in subtrees
 times <- getx(tree)
-hpi_intro <- 4185.86 # HPI introduction
+hpi_intro <- 3978 # HPI introduction
 clades.s <- as.numeric(names(times)[which(times<hpi_intro)])
 
 # remove embedded clades
